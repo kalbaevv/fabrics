@@ -1,0 +1,11 @@
+.modesListContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.modesListContainer > :nth-child(5) {
+  grid-column: span 2;
+}

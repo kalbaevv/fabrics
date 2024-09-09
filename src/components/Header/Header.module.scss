@@ -2,10 +2,34 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 48px;
+
+  &Title {
+    color: #2C2D2E;
+    font-size: 18px;
+    font-weight: 500;
+  }
 }
 
 .iconsWrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 8px;
+
+  &Item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 8px 9px;
+
+
+    span {
+      font-size: 14px;
+      color: #2C2D2E;
+    }
+  }
 }

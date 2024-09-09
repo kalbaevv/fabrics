@@ -2,7 +2,7 @@ import { SVGProps } from "react";
 
 type IconProps = SVGProps<any>;
 
-export const Test: React.FC<IconProps> = () => {
+export const HomeIcon: React.FC<IconProps> = () => {
   return (
     <svg
       width="24"

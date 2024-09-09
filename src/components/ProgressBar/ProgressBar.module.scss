@@ -1,0 +1,28 @@
+.barContainer {
+  margin-top: 16px;
+}
+
+.questions {
+  color: #2C2D2E;
+  line-height: 20px;
+}
+
+.bar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.segment {
+  width: 14%;
+  height: 6px;
+  background-color: #52A754;
+  opacity: 0.1;
+  margin: 0 2px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.active {
+ opacity: 1;
+}
